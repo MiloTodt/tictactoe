@@ -1,0 +1,30 @@
+table.blueTable {
+  border: 1px solid #1c6ea4;
+  background-color: #eeeeee;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table.blueTable td,
+table.blueTable th {
+  border: 1px solid #aaaaaa;
+  padding: 5px 5px 5px 5px;
+}
+
+table.blueTable tbody td {
+  font-size: 13px;
+}
+
+table.blueTable tr:nth-child(even) {
+  background: #d0e4f5;
+}
+table.blueTable tr:hover {
+  background-color: #7a7bc5;
+}
+.card-score{
+  display: inline-block;
+  width:100%;
+  text-align: center;
+}

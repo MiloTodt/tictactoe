@@ -1,0 +1,68 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+input,player-entry{
+  width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.row {
+  display: inline-block;
+  padding: 48px 48px 0px 48px;
+}
+.row-head {
+  display: inline-block;
+  padding: 10px 10px 20px 10px;
+}
+.board-row {
+  display: inline;
+  text-align: center;
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.card-head {
+  display: inline-block;
+  padding: 10px 10px 0px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(245, 240, 240);
+  width:100%;
+}
+.card-game{
+  display: inline-block;
+  width:260px;
+  text-align: center;
+}
+.status {
+  margin-bottom: 10px;
+}
