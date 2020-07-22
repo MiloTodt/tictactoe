@@ -28,7 +28,6 @@ gem install rails
 git clone https://github.com/MiloTodt/tictactoe.git
 cd tictactoe
 cd backend
-gem install rails
 bundle install
 rake db:setup
 rails server -p 3001
