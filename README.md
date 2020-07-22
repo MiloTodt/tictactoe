@@ -34,7 +34,7 @@ rails server -p 3001
 ```
 ![alt text](https://i.imgur.com/gSktGvX.png "Back")
 
-* In the second terminal, navigate to /tictac/client
+* In the second terminal, navigate to /tictactoe/frontend
 ```
 cd frontend
 npm start
