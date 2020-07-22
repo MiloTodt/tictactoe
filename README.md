@@ -19,6 +19,7 @@ sudo apt install nodejs -y
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 rvm install 2.5.3
 rvm use ruby-2.5.3
+gem install rails
 ```
 
 ## Running
