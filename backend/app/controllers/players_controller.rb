@@ -4,8 +4,9 @@ class PlayersController < ApplicationController
   # GET /players
   def index
     @players = Player.all
+    players_extra = @players.map { |p| p.as_json.merge!(win_percentage: p.win_percentage) }
 
-    render json: @players
+    render json: players_extra
   end
 
   # GET /players/1
