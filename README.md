@@ -37,6 +37,7 @@ rails server -p 3001
 * In the second terminal, navigate to /tictactoe/frontend
 ```
 cd frontend
+npm install
 npm start
 ```
 ![alt text](https://i.imgur.com/Y3v6UwB.png "Front")
